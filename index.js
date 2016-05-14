@@ -16,7 +16,7 @@ require('http').createServer(function(req, res) {
 			)
 		);
 	}
-	else require('fs').fs.readFile('public/header-parse.html', function(err, data) {
+	else require('fs').readFile('public/header-parse.html', function(err, data) {
 		if (err) throw err;
 		res.end(data);
 	});
