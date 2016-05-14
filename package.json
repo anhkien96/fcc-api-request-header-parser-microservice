@@ -1,0 +1,26 @@
+{
+  "name": "fcc-api-request-header-parser-microservice",
+  "description": "You can get the IP address, language and operating system for my browser.",
+  "author": "Kien Nguyen <anhkien96@gmail.com>",
+  "version": "0.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "fs": "0.0.2",
+    "http": "0.0.0"
+  },
+  "keywords": [
+    "fcc",
+    "freecodecamp",
+    "api",
+    "request",
+    "header",
+    "parse",
+    "microservice",
+    "ip",
+    "anhkien96"
+  ]
+}
